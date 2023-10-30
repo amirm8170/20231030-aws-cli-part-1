@@ -14,4 +14,5 @@ sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 - Verify that the AWS CLI installed:aws --version
 ```
 ### configure aws-cli
-- use your own credentials. 
+- use your own credentials.
+- try this line of code to check if your credentials are correct: aws ec2 describe-instances 
