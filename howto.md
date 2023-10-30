@@ -13,4 +13,4 @@ aws configure
 ### describe instance 
 ```bash
 - aws ec2 describe-instances --output [json,text,table,yaml,yaml-stream]
-```bash
+```
